@@ -14,4 +14,10 @@ public class AppController {
     public Date getDate(){
         return new Date();
     }
+
+    @GetMapping("/name")
+    public String getName()
+    {
+        return "Akatsuki wa sudotta ..!!";
+    }
 }
